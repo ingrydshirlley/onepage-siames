@@ -1,8 +1,22 @@
-.logo {
+.home {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-circulo {
+    width: 200px;
+    margin-left: var(--default-padding);
+}
+
+.titulo-guia-de-raças {
+    font-size: 4rem;
     font-family: 'Fredoka One', cursive;
 }
 
-.azul-logo {
-    font-family: 'Fredoka One', cursive;
-    color: #3cadeede;
+.titulo-guia-de-raças::after {
+    content: " Siamês";
+    font-size: 4rem;
+    color: var(--primary-color);
 }

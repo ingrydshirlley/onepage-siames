@@ -1,3 +1,48 @@
+:root {
+    --primary-color: #3cadeede;
+    --default-padding: 2rem;
+}
+
+header {
+    background-color: blueviolet;
+    grid-area: content;
+    max-width: 1200px;
+    width: 100%;
+    place-self: start center;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 body {
     font-family: 'Public Sans', sans-serif;
+    display: grid;
+    grid-template-areas: "content";
+    background-color: pink;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    height: 100vh;
+    background-color: blue;
+}
+
+.voltar {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    display: grid;
+    place-content: center;
+    font-size: 2.5rem;
+    transition: all .5s;
+}
+
+.voltar:hover {
+    color: var(--primary-color)
 }

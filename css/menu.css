@@ -1,7 +1,7 @@
-.menu {
+header.menu {
     display: flex;
     gap: 72px;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .menu li {

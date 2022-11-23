@@ -1,0 +1,13 @@
+.logo {
+    font-size: 2rem;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.logo::after {
+    content: "Pet";
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
