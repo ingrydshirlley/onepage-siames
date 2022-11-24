@@ -6,10 +6,10 @@
 header {
     background-color: blueviolet;
     grid-area: content;
-    max-width: 1200px;
+    max-width: 1800px;
     width: 100%;
-    place-self: start center;
-    margin-top: 48px;
+    place-self: center;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
