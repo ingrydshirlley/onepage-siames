@@ -1,22 +1,47 @@
 .home {
-    display: flex;
+    display: grid;
     width: 100%;
-    justify-content: center;
+    max-width: 1800px;
+    height: auto;
+    grid-template-areas: "img texto";
+    grid-template-rows: auto 1fr;
     align-items: center;
+    justify-content: space-between;
 }
 
 .foto-circulo {
-    width: 500px;
-    margin-left: 100px;
+    width: 600px;
 }
 
-.titulo-guia-de-raças {
-    font-size: 4rem;
+.foto-gato-circulo {
+    background-color: black;
+    width: 900px;
+    height: 900px;
+    display: grid;
+    grid-area: img;
+    padding-left: 80px;
+    margin-left: 50px;
+}
+
+span.titulo-guia-de-raças {
+    font-size: 5rem;
     font-family: 'Fredoka One', cursive;
 }
 
 .titulo-guia-de-raças::after {
     content: " Siamês";
-    font-size: 4rem;
+    font-size: 5rem;
     color: var(--primary-color);
+}
+
+.texts {
+    display: grid;
+    grid-area: textos;
+    width: 600px;
+    height: auto;
+    background-color: brown;
+}
+
+.text {
+    font-size: 1.5rem;
 }
