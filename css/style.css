@@ -3,23 +3,12 @@
     --default-padding: 2rem;
 }
 
-header {
-    background-color: blueviolet;
-    grid-area: content;
-    max-width: 1800px;
-    width: 100%;
-    place-self: center;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 body {
     font-family: 'Public Sans', sans-serif;
     display: grid;
     grid-template-areas: "content";
-    background-color: pink;
+    /*     background-color: pink;
+ */
 }
 
 main {
@@ -30,7 +19,7 @@ main {
 
 section {
     height: 100vh;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .voltar {
@@ -38,7 +27,6 @@ section {
     right: 16px;
     bottom: 16px;
     display: grid;
-    place-content: center;
     font-size: 2.5rem;
     transition: all .5s;
 }
