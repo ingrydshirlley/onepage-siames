@@ -29,8 +29,10 @@ section {
     display: grid;
     font-size: 2.5rem;
     transition: all .5s;
+    z-index: 7;
+    color: white;
 }
 
 .voltar:hover {
-    color: var(--primary-color)
+    color: rgb(156, 218, 247)
 }

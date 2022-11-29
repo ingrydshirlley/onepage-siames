@@ -18,29 +18,29 @@ span.titles-2 {
 }
 
 .text-2 {
-    background-color: brown;
     font-size: 1.5rem;
     display: grid;
     width: 700px;
     height: auto;
     margin-left: 8rem;
     text-align: left;
-    padding: 30px;
+    padding: 10px;
+    z-index: 4;
 }
 
 .foto-gato-deitado {
     background-color: chartreuse;
-    width: 800px;
+    width: 780px;
     height: 400px;
     display: grid;
     align-items: center;
     justify-content: center;
-    transform: translate(100%, -15%);
+    transform: translate(110%, -90%);
     z-index: 3;
 }
 
 .foto-deitado {
-    width: 800px;
+    width: 780px;
 }
 
 .container {
@@ -49,9 +49,22 @@ span.titles-2 {
     justify-content: space-around;
     width: 1903px;
     height: auto;
+    transform: translateY(-58%);
     place-self: center;
 }
 
 .simbolos-bola {
     width: 300px;
+}
+
+.escrita{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    width: 210px;
+    justify-content: center;
+    transform: translate(20%,-30%);
+    
 }
