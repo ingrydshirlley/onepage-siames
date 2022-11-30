@@ -10,6 +10,7 @@ span.titles-2 {
     margin-left: 8rem;
     font-family: 'Fredoka One', cursive;
     color: var(--primary-color);
+    margin-top: 30px;
 }
 
 .titles-2::after {
@@ -24,7 +25,7 @@ span.titles-2 {
     height: auto;
     margin-left: 8rem;
     text-align: left;
-    padding: 10px;
+    margin-top: 20px;
     z-index: 4;
 }
 
@@ -35,21 +36,20 @@ span.titles-2 {
     display: grid;
     align-items: center;
     justify-content: center;
-    transform: translate(110%, -90%);
+    transform: translate(120%, -90%);
     z-index: 3;
 }
 
 .foto-deitado {
-    width: 780px;
+    width: 1000px;
 }
 
 .container {
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-around;
-    width: 1903px;
-    height: auto;
-    transform: translateY(-58%);
+    width: 2113px;
+    transform: translateY(-40%);
     place-self: center;
 }
 
@@ -57,7 +57,7 @@ span.titles-2 {
     width: 300px;
 }
 
-.escrita{
+.escrita {
     font-family: 'Fredoka One', cursive;
     color: white;
     font-size: 2rem;
@@ -65,6 +65,5 @@ span.titles-2 {
     display: flex;
     width: 210px;
     justify-content: center;
-    transform: translate(20%,-30%);
-    
+    transform: translate(20%, -30%);
 }
