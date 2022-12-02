@@ -1,0 +1,13 @@
+.titles-5 {
+    font-size: 4rem;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    text-align: center;
+    display: grid;
+    margin-top: 20px;
+}
+
+.titles-5::after {
+    content: "Siamesa";
+    color: var(--primary-color);
+}

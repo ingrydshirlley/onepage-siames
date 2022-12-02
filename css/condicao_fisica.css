@@ -10,7 +10,7 @@ span.titles-2 {
     margin-left: 8rem;
     font-family: 'Fredoka One', cursive;
     color: var(--primary-color);
-    margin-top: 30px;
+    margin-top: 2rem;
 }
 
 .titles-2::after {
@@ -23,9 +23,10 @@ span.titles-2 {
     display: grid;
     width: 700px;
     height: auto;
-    margin-left: 8rem;
+    margin-left: 7.5rem;
+    margin-top: 0.5rem;
     text-align: left;
-    margin-top: 20px;
+    padding: 10px;
     z-index: 4;
 }
 
@@ -36,25 +37,30 @@ span.titles-2 {
     display: grid;
     align-items: center;
     justify-content: center;
-    transform: translate(120%, -90%);
+    transform: translate(110%, -90%);
     z-index: 3;
 }
 
 .foto-deitado {
-    width: 1000px;
+    width: 780px;
 }
 
 .container {
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-around;
-    width: 2113px;
-    transform: translateY(-40%);
+    width: 1903px;
+    height: 400px;
+    transform: translateY(-70%);
     place-self: center;
 }
 
 .simbolos-bola {
     width: 300px;
+}
+
+.escrita-simbol:hover {
+    color: rgb(54, 119, 224);
 }
 
 .escrita {

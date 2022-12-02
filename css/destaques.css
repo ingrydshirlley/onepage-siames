@@ -1,4 +1,8 @@
-.titles-3 {
+.destaques {
+    height: 100vh;
+}
+
+.titles-4 {
     font-size: 4rem;
     font-family: 'Fredoka One', cursive;
     color: black;
@@ -7,29 +11,28 @@
     margin-top: 20px;
 }
 
-.titles-3::after {
+.titles-4::after {
     content: " curiosidades";
     color: var(--primary-color);
 }
 
-.text-3 {
+.text-4 {
     font-size: 1.5rem;
-    display: grid;
     text-align: center;
-    width: 900px;
-    transform: translateX(40%);
+    width: 1300px;
+    transform: translateX(0%);
     font-family: 'Public Sans', sans-serif;
 }
 
 .linha-1 {
-    transform: translate(60%, 1400%);
+    transform: translate(10%, 1400%);
 }
 
 .linha-2 {
-    transform: translate(270%, -1000%);
+    transform: translate(250%, -1011%);
 }
 
-.botao3 {
+.botao-4 {
     background-color: #8ed3fb;
     width: 300px;
     height: 40px;
@@ -38,24 +41,23 @@
     font-weight: 600;
     border-radius: 50px;
     border: none;
-    margin-left: 4rem;
-    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
 }
 
-.botao3:hover {
+.botao-4:hover {
     color: #fff;
     cursor: pointer;
-    width: 1000px;
+    width: 1300px;
 }
 
 .oculto {
     font-family: 'Public Sans', sans-serif;
     font-size: 1.5rem;
     display: grid;
-    width: 1000px;
+    width: 1300px;
     height: auto;
-    margin-left: 4rem;
-    text-align: justify;
+    margin-left: 2rem;
     /*     visibility: hidden;
  */
 }
