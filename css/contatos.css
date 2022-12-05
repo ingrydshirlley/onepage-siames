@@ -1,0 +1,25 @@
+.contatos {
+    background-color: var(--primary-color);
+    display: grid;
+    width: 100%;
+    height: 40vh;
+}
+
+.logo2 {
+    font-size: 2rem;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.logo2::after {
+    content: "Pet";
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+}
+
+.contato-container {
+    display: grid;
+    background-color: yellow;
+}
