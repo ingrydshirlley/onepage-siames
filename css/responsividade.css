@@ -1,0 +1,18 @@
+@media (max-width: 640px) {
+    /* HEADER */
+    .condicao-fisica {
+        display: none;
+    }
+    .destaques {
+        display: none;
+    }
+    .personalidade {
+        display: none;
+    }
+    .caracteristicas {
+        display: none;
+    }
+    .contatos {
+        display: none;
+    }
+}
