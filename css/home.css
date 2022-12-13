@@ -13,7 +13,6 @@
 }
 
 .foto-gato-circulo {
-    /*background-color: black;*/
     width: 700px;
     height: 750px;
     display: grid;
@@ -39,7 +38,6 @@ span.titulo-guia-de-raças {
     display: grid;
     width: 700px;
     height: auto;
-    /*background-color: brown;*/
     transform: translate(118%, -150%);
 }
 
